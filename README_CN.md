@@ -43,7 +43,7 @@ python download_audios.py
 python webui_speaker_needle_in_haystack.py
 ```
 
-也可以手动窗口audios文件，将wav文件放置在audios文件夹中
+也可以手动创建audios文件，将wav文件放置在audios文件夹中
 
 ```bash
 mkdir audios
