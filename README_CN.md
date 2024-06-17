@@ -6,6 +6,8 @@
 
 在大量音频中，匹配音色与目标音频较为相似的音频。如果音频是充分的，总能够找到一个类似的音频。
 
+这里用的3ds-speaker的音频embs，可能扩充到一万人到五万人会产生质变，考虑到说话语气和内容，选择尽可能相似的文本来匹配可以取得更好的效果（手动生成新的文本的音频应该可以取得更好的效果）。
+
 项目示例：[HuggingFace Space](https://huggingface.co/spaces/omniway/Audio-Needle-In-Haystack)
 
 匹配音频的算法：[speech_eres2netv2_sv_zh-cn_16k-common](https://www.modelscope.cn/models/iic/speech_eres2netv2_sv_zh-cn_16k-common/summary)
